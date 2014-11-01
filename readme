@@ -1,0 +1,17 @@
+fielname_trans.csv：是原始数据
+mp32raw.py：是mp3转换成raw数据的程序
+DataAndLabel.py：为类标数据和原始数据做准备
+feature_extraction.py:特征提取程序
+Lable.py:提取类别标签
+feature_extract：为特征提取函数，特征直接被存储在feature文件中，以为packle文件存储，使用时需要解析
+Label.py:为标签提取文件，提取csv标签中的文件
+Label.pkl:为Label.py提取的标签文件，使用时需要解析
+raw2json.py     : 生成json文件
+----------------------华丽分割线----------------------------
+
+onlineCheck.py  : 把LR函数写到客户端程序后，这段代码负责重现实验结果
+
+
+
+
+
